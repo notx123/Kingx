@@ -28,7 +28,7 @@ async def start(client, message):
                     InlineKeyboardButton('⌬ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url='https://t.me/+PN59dOdJNNAxYzQ1')
                 ],[
                     InlineKeyboardButton('〄 Hᴇʟᴘ', callback_data='help'),
-                    InlineKeyboardButton('⍟ Aʙᴏᴜᴛ', callback_data='https://t.me/MrFazni),
+                    InlineKeyboardButton('⍟ Aʙᴏᴜᴛ', callback_data='https://t.me/MrFazni'),
                     InlineKeyboardButton('Iɴʟɪɴᴇ Sᴇᴀʀᴄʜ ☌', switch_inline_query_current_chat='')
                 ],[
                     InlineKeyboardButton('✇ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ✇', url='https://t.me/TamilRockerz_FZN')
