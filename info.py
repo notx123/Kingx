@@ -48,8 +48,8 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Ajax_files')
 
 # Others
 IS_VERIFY = bool(environ.get('IS_VERIFY', False))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'dalink.in')
-SHORTLINK_API = environ.get('SHORTLINK_API', 'b483c33dab0e925bff09eb22cc3731b4011c02e7')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'tnshort.net')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'b6fdd5223766ff346ba3b7c47f50b9cc9dc57458')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "5")
